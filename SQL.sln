@@ -29,6 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicantApplication", "App
 		MS SQL\ApplicantApplication\No3-VIEW.sql = MS SQL\ApplicantApplication\No3-VIEW.sql
 		MS SQL\ApplicantApplication\No4-VIEW.sql = MS SQL\ApplicantApplication\No4-VIEW.sql
 		MS SQL\ApplicantApplication\No5-VIEW.sql = MS SQL\ApplicantApplication\No5-VIEW.sql
+		ReadMe.txt = ReadMe.txt
 		MS SQL\ApplicantApplication\Test_Answers.sql = MS SQL\ApplicantApplication\Test_Answers.sql
 	EndProjectSection
 EndProject
