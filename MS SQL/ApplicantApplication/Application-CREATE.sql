@@ -1,12 +1,12 @@
 USE [Laptop2019]
 GO
 
-/****** Object:  Table [dbo].[Application]    Script Date: 12/11/2020 10:21:20 ******/
+/****** Object:  Table [dbo].[Application]    Script Date: 12/11/2020 22:20:04 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Application]') AND type in (N'U'))
 DROP TABLE [dbo].[Application]
 GO
 
-/****** Object:  Table [dbo].[Application]    Script Date: 12/11/2020 10:21:20 ******/
+/****** Object:  Table [dbo].[Application]    Script Date: 12/11/2020 22:20:04 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -25,6 +25,7 @@ CREATE TABLE [dbo].[Application](
 	[createDate] [datetime] NOT NULL,
 	[updateDate] [datetime] NOT NULL,
 	[notes] [nvarchar](2000) NULL,
+	[completed] [bit] NULL,
  CONSTRAINT [PK_Application] PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC
