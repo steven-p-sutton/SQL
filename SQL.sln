@@ -9,7 +9,46 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS SQL", "MS SQL", "{8ECCFA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicantApplication", "ApplicantApplication", "{803468AC-5602-459D-A792-9508434155C4}"
 	ProjectSection(SolutionItems) = preProject
-		SqlQuery_1.sql = SqlQuery_1.sql
+		MS SQL\ApplicantApplication\All-DELETE.sql = MS SQL\ApplicantApplication\All-DELETE.sql
+		MS SQL\ApplicantApplication\All-INSERT.sql = MS SQL\ApplicantApplication\All-INSERT.sql
+		MS SQL\ApplicantApplication\All-SELECT.sql = MS SQL\ApplicantApplication\All-SELECT.sql
+		MS SQL\ApplicantApplication\Applicant-CREATE.sql = MS SQL\ApplicantApplication\Applicant-CREATE.sql
+		MS SQL\ApplicantApplication\Applicant-INSERT.sql = MS SQL\ApplicantApplication\Applicant-INSERT.sql
+		MS SQL\ApplicantApplication\Application-CREATE.sql = MS SQL\ApplicantApplication\Application-CREATE.sql
+		MS SQL\ApplicantApplication\Application-INSERT.sql = MS SQL\ApplicantApplication\Application-INSERT.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant-CREATE.sql = MS SQL\ApplicantApplication\ApplicationApplicant-CREATE.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant-INSERT.sql = MS SQL\ApplicantApplication\ApplicationApplicant-INSERT.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant-VIEW.sql = MS SQL\ApplicantApplication\ApplicationApplicant-VIEW.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant_EXEC.sql = MS SQL\ApplicantApplication\ApplicationApplicant_EXEC.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant_PROC.sql = MS SQL\ApplicantApplication\ApplicationApplicant_PROC.sql
+		MS SQL\ApplicantApplication\ApplicationApplicant_View_SELECTsql.sql = MS SQL\ApplicantApplication\ApplicationApplicant_View_SELECTsql.sql
+		MS SQL\ApplicantApplication\DataTypes-CREATE.sql = MS SQL\ApplicantApplication\DataTypes-CREATE.sql
+		MS SQL\ApplicantApplication\DataTypes-INSERT.sql = MS SQL\ApplicantApplication\DataTypes-INSERT.sql
+		MS SQL\ApplicantApplication\No1-VIEW.sql = MS SQL\ApplicantApplication\No1-VIEW.sql
+		MS SQL\ApplicantApplication\No2-VIEW.sql = MS SQL\ApplicantApplication\No2-VIEW.sql
+		MS SQL\ApplicantApplication\No3-VIEW.sql = MS SQL\ApplicantApplication\No3-VIEW.sql
+		MS SQL\ApplicantApplication\No4-VIEW.sql = MS SQL\ApplicantApplication\No4-VIEW.sql
+		MS SQL\ApplicantApplication\No5-VIEW.sql = MS SQL\ApplicantApplication\No5-VIEW.sql
+		MS SQL\ApplicantApplication\Test_Answers.sql = MS SQL\ApplicantApplication\Test_Answers.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expoirted Scripts", "Expoirted Scripts", "{C5816FC9-F782-4BEA-A194-3F71C1A1EB12}"
+	ProjectSection(SolutionItems) = preProject
+		MS SQL\ApplicantApplication\Database.sql = MS SQL\ApplicantApplication\Database.sql
+		MS SQL\ApplicantApplication\Exported Scripts\db_Login1.Role.sql = MS SQL\ApplicantApplication\Exported Scripts\db_Login1.Role.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.Applicant.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.Applicant.Table.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.Application.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.Application.Table.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicant.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicant.Table.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicant_PROC.StoredProcedure.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicant_PROC.StoredProcedure.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicantView.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.ApplicationApplicantView.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.DataTypes.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.DataTypes.Table.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.No1_View.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.No1_View.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.No2_View.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.No2_View.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.No3_View.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.No3_View.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.No4_View.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.No4_View.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\dbo.No5_View.View.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.No5_View.View.sql
+		MS SQL\ApplicantApplication\Exported Scripts\login1.Schema.sql = MS SQL\ApplicantApplication\Exported Scripts\login1.Schema.sql
+		MS SQL\ApplicantApplication\Exported Scripts\login1.User.sql = MS SQL\ApplicantApplication\Exported Scripts\login1.User.sql
 	EndProjectSection
 EndProject
 Global
@@ -28,6 +67,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{803468AC-5602-459D-A792-9508434155C4} = {8ECCFAC5-658B-4EF7-BAA2-584ED2E42EE0}
+		{C5816FC9-F782-4BEA-A194-3F71C1A1EB12} = {803468AC-5602-459D-A792-9508434155C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BAB1337-86BF-4BBD-BBDA-9CA166E40AEC}
