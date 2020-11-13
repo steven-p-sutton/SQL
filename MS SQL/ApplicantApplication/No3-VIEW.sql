@@ -1,32 +1,29 @@
 USE [Laptop2019]
 GO
 
-/****** Object:  View [dbo].[No3_View]    Script Date: 12/11/2020 10:24:22 ******/
+/****** Object:  View [dbo].[No3_View]    Script Date: 12/11/2020 22:11:26 ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
+--3. List the number of applicants per mortgage application.
 
-
-
-CREATE OR ALTER       VIEW [dbo].[No3_View]
+CREATE OR ALTER         VIEW [dbo].[No3_View]
 AS
 
 SELECT 
-count(AA.applicantID) as 'Applicants'
-,AA.applicationID
+count(AP.ID) as 'Applicants'
+,AP.applicationID
 
 FROM 
-	 [dbo].[Applicant] AP
-	,[dbo].[Application] AC
-	,[dbo].[ApplicationApplicant] AA
+	  [dbo].[Application] AC
+	  ,[dbo].[Applicant] AP
 WHERE
-	AP.ID = AA.applicantID
-AND AA.applicationID = AC.ID
+	AC.ID = AP.applicationID
 GROUP BY
-	AA.applicationID
+	AP.applicationID
 
 GO
 
