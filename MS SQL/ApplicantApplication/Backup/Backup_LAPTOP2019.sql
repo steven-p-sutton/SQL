@@ -1,0 +1,2 @@
+BACKUP DATABASE [Laptop2019] TO  DISK = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\Laptop2019.bak' WITH NOFORMAT, NOINIT,  NAME = N'Laptop2019-Full Database Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+GO
