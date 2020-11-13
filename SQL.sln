@@ -52,6 +52,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expoirted Scripts", "Expoir
 		MS SQL\ApplicantApplication\Exported Scripts\login1.User.sql = MS SQL\ApplicantApplication\Exported Scripts\login1.User.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backup", "Backup", "{C28C768A-A496-4A9C-870E-5EEEFCD6293F}"
+	ProjectSection(SolutionItems) = preProject
+		MS SQL\ApplicantApplication\Backup\Backup_LAPTOP2019.sql = MS SQL\ApplicantApplication\Backup\Backup_LAPTOP2019.sql
+		MS SQL\ApplicantApplication\Backup\Laptop2019.bak = MS SQL\ApplicantApplication\Backup\Laptop2019.bak
+		MS SQL\ApplicantApplication\Backup\Laptop2019.mdf = MS SQL\ApplicantApplication\Backup\Laptop2019.mdf
+		MS SQL\ApplicantApplication\Backup\Laptop2019_log.ldf = MS SQL\ApplicantApplication\Backup\Laptop2019_log.ldf
+		MS SQL\ApplicantApplication\Backup\Restore_LAPTOP2019.sql = MS SQL\ApplicantApplication\Backup\Restore_LAPTOP2019.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +78,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{803468AC-5602-459D-A792-9508434155C4} = {8ECCFAC5-658B-4EF7-BAA2-584ED2E42EE0}
 		{C5816FC9-F782-4BEA-A194-3F71C1A1EB12} = {803468AC-5602-459D-A792-9508434155C4}
+		{C28C768A-A496-4A9C-870E-5EEEFCD6293F} = {803468AC-5602-459D-A792-9508434155C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BAB1337-86BF-4BBD-BBDA-9CA166E40AEC}
