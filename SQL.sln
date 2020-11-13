@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicantApplication", "App
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expoirted Scripts", "Expoirted Scripts", "{C5816FC9-F782-4BEA-A194-3F71C1A1EB12}"
 	ProjectSection(SolutionItems) = preProject
-		MS SQL\ApplicantApplication\Database.sql = MS SQL\ApplicantApplication\Database.sql
+		MS SQL\ApplicantApplication\Exported Scripts\Database.sql = MS SQL\ApplicantApplication\Exported Scripts\Database.sql
 		MS SQL\ApplicantApplication\Exported Scripts\db_Login1.Role.sql = MS SQL\ApplicantApplication\Exported Scripts\db_Login1.Role.sql
 		MS SQL\ApplicantApplication\Exported Scripts\dbo.Applicant.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.Applicant.Table.sql
 		MS SQL\ApplicantApplication\Exported Scripts\dbo.Application.Table.sql = MS SQL\ApplicantApplication\Exported Scripts\dbo.Application.Table.sql
